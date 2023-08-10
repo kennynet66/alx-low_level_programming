@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *
- * 
+ * main - A program that prints the given string
+ * It will print the string placed in the printf field
+ * Return: Always - (Exit status)
  */
 int main(void)
 {
