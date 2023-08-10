@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-/*
- * This is the main file
- * It will return 0
+/**
+ * main - This is the main file and entry point of the program
+ * print the string given
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
