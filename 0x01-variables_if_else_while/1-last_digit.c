@@ -3,18 +3,18 @@
 #include <time.h>
 /**
  * main - It will assign a new number to variable n each time it is executed
- * This is where the
  * The program uses time.h header file
  * Return: 0  for success
  */
 int main(void)
 {
 	int n;
+	int last_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	int last_digit = n % 10;
+	last_digit = n % 10;
 
 	if (last_digit > 5)
 	{
