@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Main - It will assign a new number to variable n each time it is executed
+ * main - It will assign a new number to variable n each time it is executed
+ * This is where the
  * The program uses time.h header file
  * Return: 0  for success
  */
