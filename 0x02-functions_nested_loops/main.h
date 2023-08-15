@@ -4,7 +4,7 @@
 * the program prints _putchar
 * Return: 0 success exit status code
 */
-int _putchar(void)
+int alphabet(void)
 {
 	printf("_putchar\n");
 	return (0);
