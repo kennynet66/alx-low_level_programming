@@ -1,4 +1,5 @@
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
 /**
 * main - This is the program entry point
 * the program prints _putchar
@@ -6,12 +7,7 @@
 */
 void print_alphabet(void)
 {
-	char letter = 'a';
-
-	while (letter <= 'z')
-	{
-		putchar(letter);
-		letter++;
-	}
-	putchar('\n');
+	int _putchar(char c);
+	void print_alphabet(void);
+#endif
 }
