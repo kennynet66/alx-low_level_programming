@@ -16,8 +16,10 @@ void _putchar(char c)
 void print_alphabet_x10(void)
 {
 	char letter;
-	for (int num = 1; num <=10; num++)
-		for(char letter = 'a'; letter <= 'z'; letter++)
+	int num;
+
+	for (num = 1; num <=10; num++)
+		for(letter = 'a'; letter <= 'z'; letter++)
 		{
 			_putchar(letter);
 		}
