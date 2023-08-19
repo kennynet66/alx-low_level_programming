@@ -4,14 +4,13 @@
  * it prints all lowercase alphabets
  * Return: Always 0
  */
-void print_alphabet(void)
+int main(void)
 {
 	char letter = 'a';
 
-	while (letter <= 'z')
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		_putchar(letter);
-		letter++;
 	}
 	_putchar('\n');
 	return (0);
