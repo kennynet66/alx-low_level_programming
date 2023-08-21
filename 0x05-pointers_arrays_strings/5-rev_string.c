@@ -8,10 +8,12 @@ void rev_string(char *s)
 {
 	int length = strlen(s);
 	int i;
+	char reversed[length + 1];
 
 	for (i = length - 1; i >= 0; i--)
 	{
-		putchar(s[i]);
+		reversed[length - 1 - i] = s[i];
 	}
-	putchar('\n');
+	reversed[length] = '\0';
+	strcpy(s, reversed);
 }
