@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * prints - all chars of a string on a new line
  * @str - string to be modified
