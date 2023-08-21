@@ -6,14 +6,17 @@
  */
 void rev_string(char *s)
 {
-	int length = strlen(s);
-	int i;
-	char temp;
+	int length =  0, ind = 0;
+	char trp;
 
-	for (i = length - 1; i >= 0; i--)
+	while (s[ind++])
+	length++;
+
+	for (ind = length - 1; ind >= length / 2; ind--)
 	{
-		temp = s[i];
-		s[i] = s[length - i - 1];
-		s[length - i - 1] = temp;
+	trp = s[index];
+
+	s[ind] = s[length - ind - 1];
+	s[length - ind - 1] = trp;
 	}
 }
