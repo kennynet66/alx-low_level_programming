@@ -3,7 +3,7 @@
 /**
  * _putchar - writes the character c to the standard output
  * @c: the character printed
- * Return: On success 1
+ * Return: nothing
  */
 int _putchar(char c)
 {
