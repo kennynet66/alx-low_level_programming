@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /* main - Programs Entry point
  * Return: Always 0
  */
