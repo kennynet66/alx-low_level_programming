@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * prints - all chars of a string on a new line
- * @str - string to be modified
+ * @str: string to be modified
  * Return: nothing
  */
 
