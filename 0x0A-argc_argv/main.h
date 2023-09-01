@@ -6,5 +6,6 @@
 #include <unistd.h>
 
 void _putchar(char n);
+int _atoi(char *s);
 
 #endif
