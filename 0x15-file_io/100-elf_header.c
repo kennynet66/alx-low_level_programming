@@ -1,7 +1,6 @@
-100-elf_header.c
 /*
  * File: 100-elf_header.c
- * Auth: Brennan D Baraban
+ * Auth: Kenedy Maina
  */
 
 #include <elf.h>
